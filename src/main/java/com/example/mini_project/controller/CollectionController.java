@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/collections")
+@RequestMapping("/collections")
 public class CollectionController {
     @Autowired
     private CollectionService collectionService;
